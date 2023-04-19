@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Novas tags para aplicações</h1>
+    <section>
+
+        <h2>Details: também funciona para readme</h2>
+        <details>
+            <summary>Áreas de atuação</summary>
+            <section>
+                <div>Front-End</div>
+                <div>Back-end</div>
+                <div>Data-Science</div>
+            </section>
+        </details>
+    </section>
+    <section>
+
+        <h2>Data list:semelhante a um select 2</h2>
+        <label for="weekday">Selecione o dia da semana</label>
+        <input list="weekdays" name="weekday" id="weekday">
+        <datalist id="weekdays">
+            <option value="Domingo"></option>
+            <option value="Segunda"></option>
+            <option value="Terça"></option>
+            <option value="Quarta"></option>
+            <option value="Quinta"></option>
+            <option value="Sexta"></option>
+            <option value="Sabado"></option>
+        </datalist>
+    </section>
+    <section>
+        <select name="" id=""></select>
+        <h2>content Editable</h2>
+        <ul contenteditable>
+            <li>1. Estudar para WorldSkills</li>
+            <li>2. Trabalhar para a Bahia SH</li>
+            <li>3. Estudar para WorldSkills</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Tag Mark</h2>
+        <p>Lorem ipsum dolor sit, <mark>Texto Marcado</mark> amet consectetur adipisicing elit. Accusamus itaque porro
+            libero minima nesciunt id saepe a aspernatur pariatur dolorem quidem dicta harum voluptatum odio, nostrum
+            soluta
+            deleniti eius! Enim.</p>
+    </section>
+    <section>
+        <h2>Option Group</h2>
+        <label for="mangas">Selecione seu mangá favorito</label>
+        <select name="mangas" id="mangas">
+            <optgroup label="Shonen">
+                <option value="Bleach">Bleach</option>
+                <option value="One Piece">One Piece</option>
+                <option value="Jujutsu Kaisen">Jujutsu Kaisen</option>
+            </optgroup>
+            <optgroup label="Seinei">
+                <option value="Berserk">Berserk</option>
+                <option value="Boa Noite PunpPun">Boa Noite PunpPun</option>
+            </optgroup>
+        </select>
+    </section>
+</body>
+
+</html>
